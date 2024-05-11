@@ -25,13 +25,15 @@ const router = createBrowserRouter([
 				<AccountPage/>
 		),
 	},
+
 	{
 		path: RoutesPathName.DASHBOARD_PAGE,
 		element: (
 			<PrivateRoute />
 		),
 	}
-     ]);
+
+    ]);
 
 function App() {
   
